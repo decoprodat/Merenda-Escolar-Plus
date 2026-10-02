@@ -67,7 +67,7 @@ function loginUser (login, senha, role) {
 
         var roles = Array.isArray(usuario.role) ? usuario.role : [usuario.role];
 
-        if (login == usuario.login && senha == usuario.senha && usuario.role.includes(role) && usuario.status == "ativo" ) {
+        if (login == usuario.login && senha == usuario.senha && roles.includes(role) && usuario.status == "ativo" ) {
             usuarioCorrente.id = usuario.id;
             usuarioCorrente.login = usuario.login;
             usuarioCorrente.email = usuario.email;
@@ -93,7 +93,7 @@ function logoutUser () {
 }
 
 function addUser (nome, login, senha, email,role,status) {
-    let usuario = { "login": login, "senha": senha, "nome": nome, "email": email,"role":role, "status":status };
+    let usuario = { "login": login, "senha": senha, "nome": nome, "email": email,"role":[role], "status":status };
      
     fetch(API_URL, {
         method: 'POST',
