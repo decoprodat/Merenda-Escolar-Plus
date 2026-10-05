@@ -101,6 +101,6 @@ A documentação completa do processo de concepção está em [`docs/README.md`]
 - [Davi Lavalle Carneiro](https://github.com/davicarneiro1558195-sys)
 - [Gabriel Tavares Pandino](https://github.com/gabrielpandino-puc)
 - [Gustavo Alves Costa Sousa](https://github.com/alvespcrl)
-- [Pedro Ferretti Martins Maia](https://github.com/pedroferretti31)
+
 
 **Professores orientadores (PUC Minas):** Cleiton Silva Tavares, Diego Augusto de Faria Barros, Rommel Vieira Carneiro e Roselene Henrique Pereira Costa.
